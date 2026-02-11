@@ -18,3 +18,14 @@ Unterfragen: •Durchschnittliche Lieferdauer (purchase → delivery)?
 •Welche Regionen/Verkäufer haben Serviceprobleme? 
 •Wo kein Marketingbudget rein, bevor Service gefixt ist? 
 •ML-Idee: Schlechte Bewertung / Lieferverzug vorhersagen Tabellen: orders , order_reviews , sellers , geolocation Portfolio-Struktur: 1.Business-Kontext (2 Sätze) 2.3 Hauptfragen 3.SQL-Views + Data Cleaning 4.Power BI Dashboard 5.ML-Potenzial (ohne Code)
+
+
+
+Fragestellung 4: Wo verlieren wir Kunden im Bestellprozess?
+1. Status der Orders analysieren
+2. Anteil nicht ausgelieferter Bestellungen
+3. Stornierungen"
+
+
+
+
