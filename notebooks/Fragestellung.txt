@@ -1,1 +1,20 @@
 Hier kommen unsere Fragestellungen rein
+Projektziel
+“Welche Kundensegmente und Produktkategorien sollte Olist mit Performance-Marketing priorisieren, um Umsatz und Kundenbindung zu maximieren?” Hauptfragen (auf einen Blick)
+
+1.Welche Kunden sind am wertvollsten? (RFM-Segmente)
+2.Welche Produkte/Kategorien pushen? (Umsatz & Wiederholungskäufe)
+3.Wie beeinflussen Lieferzeiten & Reviews die Bindung? (Servicequalität)
+
+Hauptfrage 1: Welche Kunden sind am wertvollsten?
+Unterfragen: •Wie viele Bestellungen, wie hoher Umsatz, wie aktuell? ( Frequency , Monetary , Recency ) •RFM-Segmente: Champions, Loyal, At-Risk, Low Value? •Welche Segmente für Retention/Up-Selling? •ML-Idee: Churn-Wahrscheinlichkeit vorhersagen Tabellen: orders , customers , order_items , order_payments
+
+Hauptfrage 2: Welche Produkte/Kategorien pushen?
+Unterfragen: •Umsatz je Kategorie/Produkt (Preis × Menge) •Welche Kategorien kaufen High-Value-Kunden? •Hohe Nachfrage + Wiederholungskäufe = Marketing-Priorität? •ML-Idee: Produktempfehlungen („Kunden, die X kauften…”) Tabellen: order_items , products , orders , customers
+
+Hauptfrage 3: Lieferzeiten & Reviews → Bindung?
+Unterfragen: •Durchschnittliche Lieferdauer (purchase → delivery)? 
+•Korrelation Lieferzeit vs. Review-Score? 
+•Welche Regionen/Verkäufer haben Serviceprobleme? 
+•Wo kein Marketingbudget rein, bevor Service gefixt ist? 
+•ML-Idee: Schlechte Bewertung / Lieferverzug vorhersagen Tabellen: orders , order_reviews , sellers , geolocation Portfolio-Struktur: 1.Business-Kontext (2 Sätze) 2.3 Hauptfragen 3.SQL-Views + Data Cleaning 4.Power BI Dashboard 5.ML-Potenzial (ohne Code)
