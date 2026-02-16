@@ -29,4 +29,54 @@ Fragestellung 4: Wo verlieren wir Kunden im Bestellprozess?
 
 
 
-Hallo Denis wie geht es dir?
+1. Wertvollste Kundensegmente (RFM & Bindung)
+Ziel: Wer bringt heute und in Zukunft das meiste Geld?
+	•	RFM‑Scores (Recency, Frequency, Monetary) je Kunde
+	•	Recency = Tage seit letzter genehmigter Bestellung
+	•	Frequency = Anzahl Bestellungen im Zeitraum
+	•	Monetary = Umsatz pro Kunde (Summe  price + freight_value ).
+	•	Customer Lifetime Value (CLV, vereinfacht)
+	•	CLV ≈ Durchschnittsumsatz pro Kunde × durchschnittliche Bestellanzahl.
+	•	Repeat Purchase Rate
+	•	Anteil Kunden mit ≥2 Bestellungen.
+	•	Retention Rate / Churn Rate
+	•	Wie viele Kunden bleiben im Zeitraum aktiv / fallen weg.
+Damit kannst du Kundensegmente wie „Champions“, „At‑Risk“, „Low Value“ definieren und im Dashboard markieren.
+
+2. Produktkategorien mit Umsatz‑ & Wiederkaufs‑Potenzial
+Ziel: Welche Kategorien soll Marketing priorisieren?
+	•	Umsatz je Kategorie
+	•	Summe  price  (optional inkl.  freight_value ) pro  product_category_name .
+	•	Anzahl Bestellungen je Kategorie
+	•	Wie oft wird eine Kategorie überhaupt gekauft.
+	•	Durchschnittlicher Warenkorbwert je Kategorie
+	•	Ø Umsatz pro Bestellung, in der die Kategorie vorkommt.
+	•	Wiederkaufsrate je Kategorie
+	•	Anteil Kunden, die Kategorie X mehrfach (an verschiedenen Tagen / Orders) kaufen.
+	•	Bewertungsscore je Kategorie
+	•	Ø Review‑Score pro  product_category_name .
+So findest du z.B. Kategorien mit „hohem Umsatz + guten Bewertungen + hoher Wiederkaufsrate“ versus „viel Umsatz, aber schlechte Reviews“.
+
+3. Service‑Faktoren: Lieferzeit & Reviews → Bindung
+Ziel: Verstehen, wie Service die Zufriedenheit und Wiederkäufe beeinflusst.
+	•	Durchschnittliche Lieferzeit
+	•	 order_delivered_customer_date - order_purchase_timestamp  (Tage).
+	•	Versandzeit des Sellers
+	•	 order_delivered_carrier_date - order_approved_at  (Zeit bis Übergabe an Carrier).
+	•	Pünktlichkeitsrate
+	•	Anteil Orders, bei denen  order_delivered_customer_date <= estimated_delivery_date .
+	•	Ø Review‑Score gesamt & nach Lieferzeit‑Buckets
+	•	z.B. <3 Tage, 3–7, 7–14, >14; zeigt, ab wann Bewertungen kippen.
+	•	Korrelation Lieferzeit ↔ Review‑Score
+	•	Z.B. Scatterplot oder Gruppenvergleich, um Effekt sichtbar zu machen.
+Optional: Beschwerdequote = Anteil 1‑ und 2‑Sterne‑Bewertungen pro Seller / Kategorie.
+
+4. Übergeordnete Wachstums‑ & Effizienz‑Kennzahlen
+Ziel: Projekt am „Business Impact“ festmachen.
+	•	Total Revenue
+	•	Summe  price  (plus optional  freight_value ).
+	•	Average Order Value (AOV)
+	•	Gesamtumsatz / Anzahl Bestellungen.
+	•	Gross Margin Proxy je Kategorie (falls Kosten nicht da sind, zumindest Preisstruktur pro Kategorie zeigen).
+	•	Order Volume über Zeit (monatlich)
+	•	Basis für alle Zeitreihen‑Plots.
