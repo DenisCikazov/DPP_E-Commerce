@@ -264,3 +264,11 @@ $RECYCLE.BIN/
 data/
 *.pkl
 
+
+# Meine eigene Datei (Denis)
+personal_notebook.ipynb
+
+import_dataset.ipynb
+
+Fragestellung.txt
+
