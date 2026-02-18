@@ -1,55 +1,32 @@
 # Revenue Risk & Growth Drivers in an Online Marketplace 🚀
 
-> Umsatztreiber in einem Online-Marketplace
+> Identifikation von Umsatztreibern, Risikoquellen und strategischen Wachstumshebeln auf Basis transaktionaler E-Commerce-Daten.
 
 ## 📊 Projektübersicht
 
 **Problemstellung:** 
 
-Ein E-Commerce-Unternehmen verfügt über umfangreiche Kunden-, Produkt- und Bestelldaten, nutzt diese jedoch nicht systematisch zur strategischen Priorisierung. Es ist unklar,
+Ein E-Commerce-Unternehmen verfügt über umfangreiche Kunden-, Produkt- und Bestelldaten, nutzt diese jedoch nicht systematisch zur strategischen Priorisierung. Insbesondere ist unklar:
 
-- welche Kundensegmente den höchsten Wertbeitrag leisten
-- welche Produktkategorien das größte Umsatz- und Bindungspotenzial haben
-- und wie Servicefaktoren wie Lieferzeit und Bewertungen die Kundenbindung beeinflussen
+- welche Kundensegmente den höchsten Wertbeitrag leisten,
+- welche Produktkategorien nachhaltiges Umsatz- und Wiederkaufpotenzial aufweisen,
+- und in welchem Ausmaß Servicefaktoren wie Lieferzeit und Kundenbewertungen die Kundenbindung beeinflussen.
 
 Ohne datenbasierte Segmentierung und Priorisierung werden Marketingbudget und operative Ressourcen ineffizient eingesetzt.
 
-**Ziel:** 
-Ziel des Projekts ist es, datengetrieben zu identifizieren:
-- Die wertvollsten Kundensegmente (RFM-Analyse) zur gezielten       Retention- und Upselling-Strategie
-- Produktkategorien mit hohem Umsatz- und Wiederkaufs-Potenzial zur Priorisierung im Marketing
-- Service-Faktoren (Lieferzeit & Reviews), die die Kundenbindung beeinflussen, um operative Schwachstellen vor - Marketing-Investitionen zu identifizieren
-- Das übergeordnete Ziel ist die Maximierung von Umsatz und 
-Kundenbindung durch strategische Priorisierung von Segmenten und Kategorien.
+
+**Ziel:**
+Ziel dieses Projekts ist die Entwicklung einer datengetriebenen Entscheidungsgrundlage zur strategischen Priorisierung von Kunden- und Produktsegmenten.
+
+Konkret werden:
+- **Wertvolle Kundensegmente** mittels RFM-Analyse identifiziert, um gezielte Retention- und Upselling-Strategien zu ermöglichen.
+- **Produktkategorien mit hohem Umsatz- und Wiederkaufpotenzial** analysiert, um Marketingressourcen effizienter zu verwalten.
+- **Service-Faktoren (Lieferdauer & Review Scores)** hinsichtlich ihres Einflusses auf Wiederkäufe und Umsatz untersucht, um operative Schwachstellen vor zusätzlichen Marketinginvestitionen zu identifizieren.
+
+Das übergeordnete Ziel besteht in der nachhaltigen Maximierung von Umsatz und Kundenbindung durch eine strukturierte, datenbasierte Segmentierungs- und Priorisierungsstrategie.
 
 **Methoden:** 
 <!-- Welche Techniken/Algorithmen verwendest du? -->
 
-
-
-## Setup
-
-Klone das Repository
-```bash
-# Repository klonen
-git clone [DEIN-REPO-LINK]
-cd [REPO-NAME]
-```
-
-Installiere [uv](https://uv.dev) (falls noch nicht installiert) und synchronisiere die Abhängigkeiten
-```bash
-# Dependencies installieren
-uv sync
-```
-
-### Ausführung
-
-Notebooks in dieser Reihenfolge ausführen:
-1. notebooks/01_exploration.ipynb
-<!--
-2. notebooks/02_preprocessing.ipynb
-3. notebooks/03_modeling.ipynb
-4. notebooks/04_results.ipynb
--->
 
 
