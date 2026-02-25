@@ -80,3 +80,60 @@ Ziel: Projekt am „Business Impact“ festmachen.
 	•	Gross Margin Proxy je Kategorie (falls Kosten nicht da sind, zumindest Preisstruktur pro Kategorie zeigen).
 	•	Order Volume über Zeit (monatlich)
 	•	Basis für alle Zeitreihen‑Plots.
+
+
+
+
+Vorschlag:
+Hauptfrage 1 – Operational Analysis (Notebook 04)
+
+Wie beeinflusst Lieferperformance die Kundenzufriedenheit und das Wiederkaufverhalten?
+
+Analytischer Fokus:
+	•	Durchschnittliche Lieferdauer
+	•	Verspätungsquote
+	•	Zusammenhang Lieferzeit <-> Review Score
+	•	Zusammenhang Review Score <-> Wiederkauf
+	•	Regionale und seller-spezifische Serviceunterschiede
+
+Strategischer Zweck:
+	•	Identifikation operativer Engpässe
+	•	Bewertung des Einflusses von Servicequalität auf Umsatz
+	•	Priorisierung operativer Verbesserungen vor Marketinginvestitionen
+
+
+
+Hauptfrage 2 – Supply & Category Perspective (Notebook 05)
+
+Welche Produktkategorien und Verkäufer generieren nachhaltigen Umsatz und fördern Wiederkäufe?
+
+Analytischer Fokus:
+	•	Umsatz je Kategorie
+	•	Wiederkaufrate je Kategorie
+	•	Umsatz- und Qualitätsperformance je Seller
+	•	Anteil High-Value-Kunden je Kategorie
+	•	Identifikation problematischer Seller/Kategorien
+
+Strategischer Zweck:
+	•	Marketing-Priorisierung von wachstumsstarken Kategorien
+	•	Steuerung von Seller-Qualität
+	•	Plattformoptimierung
+
+
+
+Hauptfrage 3 – Customer Perspective (Notebook 06)
+
+Welche Kundensegmente treiben Umsatz und Kundenbindung am stärksten?
+
+Analytischer Fokus:
+	•	RFM-Segmentierung (Recency, Frequency, Monetary)
+	•	Umsatzanteil je Segment
+	•	Wiederkaufrate je Segment
+	•	Identifikation von At-Risk-Kunden
+	•	Konzentration des Umsatzes (Top 20%)
+
+Strategischer Zweck:
+	•	Priorisierung von Retention- und Upselling-Maßnahmen
+	•	Effizienter Einsatz von Performance-Marketing-Budget
+	•	Identifikation wertvoller Zielgruppen
+......
