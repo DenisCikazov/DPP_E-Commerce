@@ -265,5 +265,6 @@ data/
 *.pkl
 
 notebooks/Bensnotbook.ipynb
+notebooks/EDA_Spielwiese.ipynb
 notebooks/02_data_preparation_Test.ipynb
 
