@@ -264,4 +264,6 @@ $RECYCLE.BIN/
 data/
 *.pkl
 
+notebooks/Bensnotbook.ipynb
+notebooks/02_data_preparation_Test.ipynb
 
